@@ -39,6 +39,9 @@ reconnexion) · `rN/tick` (global) · `rN/ptick` (@s) · `rN/cp` (@s → checkpo
 - Registre d’énigmes : chaque salle déclare `PUZZLES` ; le lint refuse deux énigmes du même type.
 - Entité `interaction` posée sur un bloc plein : largeur ≥ 1.25 et base 0.05 plus bas, sinon le bloc « gagne » le clic
   (à distance égale, le jeu vise le bloc — ex. l’établi s’ouvre au lieu de déclencher l’action).
+- `text_display` en `billboard="fixed"` : le texte n’est lisible que de face, et sa face regarde dans la direction du
+  `yaw` de l’entité. Mettre le yaw qui pointe VERS le joueur (0 = joueur au sud/+z, 180 = nord, 90 = ouest/−x,
+  −90 = est/+x). De dos, le texte est invisible (bug de la salle 1 : panneaux invisibles depuis le poste).
 - Tests : un coéquipier ou un monstre sur la ligne de visée « prend » un clic ; les joueurs factices se
   connectent de façon asynchrone ; la salle 5 s’affiche en compteurs (détails : design/SPOILERS_NE_PAS_LIRE/tests_*.json).
 - Sortie console des tests SANS spoiler par défaut (numéros) ; `SOLSTICE_SPOILERS=1` pour les noms complets.

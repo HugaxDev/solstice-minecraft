@@ -118,6 +118,43 @@ def sc_r1_posts(t):
     t.ok("indice « marteau » trouvé dans le tender", t.g("#clue_marteau") == 1)
 
 
+def sc_r1_natural(t):
+    """Départ réel, compteurs jamais initialisés (monde neuf) : le panneau doit s’armer tout seul."""
+    t.section = "salle 1 : départ naturel"
+    for s in ("#signed", "#ev_cross"):
+        t.rc(f"scoreboard players reset {s} {V}")
+    t.rc("function solstice:debug/reset_salle")
+    t.wait(12)
+    t.setg("#r1t", 199)
+    t.wait(5)
+    t.ok("le train démarre de lui-même", (t.g("#step") or 0) >= 1)
+
+    def run_to_first_sign():
+        t.setg("#pause", 0)
+        t.setg("#stall", 0)
+        t.setg("#press", 50)
+        t.setg("#dist", 450)
+        t.wait(5)
+        return t.rc("data get entity @e[type=text_display,tag=sol.r1sign,limit=1] text")
+    sign = run_to_first_sign()
+    t.ok("départ : le panneau annonce le premier passage à niveau", "PASSAGE" in sign and t.g("#ev_cross") == 1, sign[:100])
+    e0 = t.g("#errors") or 0
+    t.setg("#dist", 1100)
+    t.wait(5)
+    t.ok("barrière restée fermée : le train recule", (t.g("#errors") or 0) == e0 + 1 and t.g("#dist") == 0)
+    sign = run_to_first_sign()
+    t.ok("après le recul, le panneau se réaffiche", "PASSAGE" in sign and t.g("#ev_cross") == 1, sign[:100])
+    # pelletée rangée dans l’inventaire (pas en main) : la chaudière l’accepte quand même
+    c = who_has(t, 2)
+    t.rc(f"clear {c} {COAL}")
+    t.rc(f"item replace entity {c} inventory.5 with minecraft:coal[minecraft:custom_data={{sol:{{coal:1b}}}}]")
+    t.setg("#press", 30)
+    click1(t, c, "fire")
+    t.wait(4)
+    t.ok("chaudière : la pelletée est acceptée même hors de la main", (t.g("#press") or 0) >= 40 and not t.has(c, COAL),
+         f"press={t.g('#press')}")
+
+
 def sc_r1_events(t):
     t.section = "salle 1 : évènements"
     a, c, g = who_has(t, 1), who_has(t, 2), who_has(t, 3)
@@ -249,4 +286,4 @@ def sc_r1_full(t):
     t.ok("les objets du train ne suivent pas", not any(t.has(b, BOOK) or t.has(b, BROOM) for b in BOTS))
 
 
-SCENARIOS = [sc_r1_roles, sc_r1_posts, sc_r1_events, sc_r1_deaths, sc_r1_full]
+SCENARIOS = [sc_r1_roles, sc_r1_posts, sc_r1_natural, sc_r1_events, sc_r1_deaths, sc_r1_full]

@@ -1,18 +1,18 @@
 # Rapport de tests — SOLSTICE 1.0
 
-Généré automatiquement par `tools/report.py` le 2026-09-26 03:47 (relancé à chaque `./build.sh`).
+Généré automatiquement par `tools/report.py` le 2026-09-26 05:01 (relancé à chaque `./build.sh`).
 
 ## Résumé
 
 | Étape | Résultat |
 |---|---|
-| py_compile + lint JSON + références (fonctions, advancements, loot, prédicats, blocs, objets) | OK — 50 fichiers Python, 50 JSON, 1083 fonctions (34549 commandes), 30 advancements |
-| Audit des sélecteurs (jeu à 3 : pas de @p/@r, pas de sélection d’un joueur unique, @s toujours avec exécutant) | OK — 1083 fonctions, 2344 usages de @s vérifiés |
+| py_compile + lint JSON + références (fonctions, advancements, loot, prédicats, blocs, objets) | OK — 50 fichiers Python, 50 JSON, 1083 fonctions (34551 commandes), 30 advancements |
+| Audit des sélecteurs (jeu à 3 : pas de @p/@r, pas de sélection d’un joueur unique, @s toujours avec exécutant) | OK — 1083 fonctions, 2345 usages de @s vérifiés |
 | Registre d’énigmes (aucun type répété sur la carte) | OK — 37 énigmes, 37 types distincts |
 | Monde construit par un serveur **vanilla** : `test/all` structurel | **97/97 PASS** |
 | Erreurs/avertissements du datapack dans les logs (build) | 0 |
 | Advancements chargés | 1429 (attendu 1429) |
-| Scénarios E2E, 3 joueurs factices (toutes les salles, salle 5 comprise) | **352/352 PASS** |
+| Scénarios E2E, 3 joueurs factices (toutes les salles, salle 5 comprise) | **359/359 PASS** |
 | Parcours complet + indices progressifs + mode 1 joueur | **28/28 PASS** |
 | Processus orphelins / ports ouverts après les runs | 0 / aucun |
 | Durée estimée (découverte) | **116.2 min** (cible 105–120) |
@@ -37,6 +37,7 @@ Le détail nominatif des tests dévoile des solutions (et l’enquête) : il est
 | tirages au sort | ✅ 4/4 | 30 tirages : rôles uniques, hasard réel, exclusion du précédent |
 | salle 1 : rôles | ✅ 9/9 | rôles et postes réservés, chaque évènement du trajet en réussite et en erreur, parcours complet, mort, reconnexion |
 | salle 1 : postes | ✅ 9/9 | rôles et postes réservés, chaque évènement du trajet en réussite et en erreur, parcours complet, mort, reconnexion |
+| salle 1 : départ naturel | ✅ 5/5 | rôles et postes réservés, chaque évènement du trajet en réussite et en erreur, parcours complet, mort, reconnexion |
 | salle 1 : évènements | ✅ 16/16 | rôles et postes réservés, chaque évènement du trajet en réussite et en erreur, parcours complet, mort, reconnexion |
 | salle 1 : morts et reconnexion | ✅ 7/7 | rôles et postes réservés, chaque évènement du trajet en réussite et en erreur, parcours complet, mort, reconnexion |
 | salle 1 : parcours complet | ✅ 24/24 | rôles et postes réservés, chaque évènement du trajet en réussite et en erreur, parcours complet, mort, reconnexion |
@@ -58,7 +59,7 @@ Le détail nominatif des tests dévoile des solutions (et l’enquête) : il est
 | salle 6 : morts et reconnexion | ✅ 8/8 | voyage entre saisons, chaque chaîne de propagation, piège d’anticipation et remontée du temps, étape finale, morts |
 | salle 6 : cloches | ✅ 9/9 | voyage entre saisons, chaque chaîne de propagation, piège d’anticipation et remontée du temps, étape finale, morts |
 | salle 7 : accusation | ✅ 11/11 | vote (désaccord puis unanimité), les deux branches de l’accusation, machine-boss, mort, anéantissement, reconnexion |
-| salle 7 : machine-boss | ✅ 15/15 | vote (désaccord puis unanimité), les deux branches de l’accusation, machine-boss, mort, anéantissement, reconnexion |
+| salle 7 : machine-boss | ✅ 17/17 | vote (désaccord puis unanimité), les deux branches de l’accusation, machine-boss, mort, anéantissement, reconnexion |
 | fin de partie | ✅ 5/5 | cinématique, crédits (temps, morts), advancement final, épilogue |
 | serveur | ✅ 1/1 | aucune erreur/avertissement du datapack, zones chargées |
 | salle 5 | ✅ 26/26 | salle 5 : faite, 26/26 tests OK (détail non publié) |

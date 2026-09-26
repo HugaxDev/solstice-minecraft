@@ -34,8 +34,8 @@ SIGN_AHEAD = 700
 
 # poste de chaque rôle (checkpoint) et éléments
 CP = {0: (1000.5, 101, 0.5, 90), 1: (980.5, 101, 0.5, 90), 2: (986.5, 101, 0.5, 90), 3: (1016.5, 101, 0.5, -90)}
-BTN_L = (978.5, 101, -1.5)
-BTN_R = (978.5, 101, 2.5)
+BTN_L = (978.5, 101, 2.5)    # l’Aiguilleur regarde vers l’ouest : sa gauche est au sud (+z)
+BTN_R = (978.5, 101, -1.5)
 FIREBOX = (984.6, 101, 0.5)
 VALVE = (984.6, 101, -1.5)
 COAL = (991.5, 101, -1.5)
@@ -144,12 +144,12 @@ def build(dp):
     for x in (1001, 1007):
         b += fill(x, 101, -3, x, 102, -3, "air"); b += fill(x, 101, 3, x, 102, 3, "air")
     # textes fixes
-    b.append(text_display(978.6, 102.6, -1.5, ["", T("◀ Voie de gauche", "aqua")], ["sol.r1"], scale=0.5, yaw=90, billboard="fixed"))
-    b.append(text_display(978.6, 102.6, 2.5, ["", T("Voie de droite ▶", "aqua")], ["sol.r1"], scale=0.5, yaw=90, billboard="fixed"))
-    b.append(text_display(984.6, 102.8, -1.5, ["", T("Soupape", "gold")], ["sol.r1"], scale=0.5, yaw=90, billboard="fixed"))
-    b.append(text_display(984.6, 102.8, 0.5, ["", T("Chaudière", "gold")], ["sol.r1"], scale=0.5, yaw=90, billboard="fixed"))
+    b.append(text_display(978.6, 102.6, 2.5, ["", T("◀ Voie de gauche", "aqua")], ["sol.r1"], scale=0.5, yaw=-90, billboard="vertical"))
+    b.append(text_display(978.6, 102.6, -1.5, ["", T("Voie de droite ▶", "aqua")], ["sol.r1"], scale=0.5, yaw=-90, billboard="vertical"))
+    b.append(text_display(984.6, 102.8, -1.5, ["", T("Soupape", "gold")], ["sol.r1"], scale=0.5, yaw=-90, billboard="vertical"))
+    b.append(text_display(984.6, 102.8, 0.5, ["", T("Chaudière", "gold")], ["sol.r1"], scale=0.5, yaw=-90, billboard="vertical"))
     b.append(text_display(991.5, 103.3, -1.2, ["", T("Tender : charbon", "gray")], ["sol.r1"], scale=0.5))
-    b.append(text_display(1013.6, 102.8, -1.5, ["", T("Manivelle des barrières", "yellow")], ["sol.r1"], scale=0.5, yaw=-90, billboard="fixed"))
+    b.append(text_display(1013.6, 102.8, -1.5, ["", T("Manivelle des barrières", "yellow")], ["sol.r1"], scale=0.5, yaw=-90, billboard="vertical"))
     dp.fn("build/r1", b + ["function solstice:r1/entities"])
     dp.meta.setdefault("builds", []).append("build/r1")
     dp.meta.setdefault("forceload", []).append((OX - 50, -30, OX + 50, 30))
@@ -163,10 +163,10 @@ def build(dp):
     ent.append(f"summon item_display {HAMMER[0]} {HAMMER[1] + 0.35} {HAMMER[2]} {{Tags:[\"sol\",\"sol.r1\",\"sol.r1e\",\"sol.r1ham\"],"
                f"item:{{id:\"minecraft:mace\",count:1}},transformation:{{left_rotation:[0f,0f,0.38f,0.92f],right_rotation:[0f,0f,0f,1f],"
                f"translation:[0f,0f,0f],scale:[0.6f,0.6f,0.6f]}}}}")
-    ent.append(text_display(*SIGN, sign_text("free", None), ["sol.r1", "sol.r1e", "sol.r1sign"], scale=0.9, billboard="fixed",
-                            yaw=90, line_width=260, bg=0xC0101010))
+    ent.append(text_display(*SIGN, sign_text("free", None), ["sol.r1", "sol.r1e", "sol.r1sign"], scale=0.9, billboard="vertical",
+                            yaw=-90, line_width=260, bg=0xC0101010))
     ent.append(text_display(978.6, 103.5, 0.5, ["", T("Aiguillage : ◀ GAUCHE", "aqua", bold=True)],
-                            ["sol.r1", "sol.r1e", "sol.r1sw"], scale=0.45, billboard="fixed", yaw=90))
+                            ["sol.r1", "sol.r1e", "sol.r1sw"], scale=0.45, billboard="vertical", yaw=-90))
     # décor mobile : arbres et poteaux qui défilent
     import random
     rnd = random.Random(11)
@@ -206,6 +206,8 @@ def build(dp):
         f"scoreboard players set #press {V} 45", f"scoreboard players set #speed {V} 0",
         f"scoreboard players set #switch {V} 0", f"scoreboard players set #bopen {V} 0",
         f"scoreboard players set #crank {V} 0", f"scoreboard players set #lim {V} 0",
+        # panneau : ré-armé à chaque (re)départ, sinon le premier évènement du tronçon ne s’affiche jamais
+        f"scoreboard players set #signed {V} 0", f"scoreboard players set #ev_cross {V} 0",
         f"scoreboard players set #over {V} 0", f"scoreboard players set #stall {V} 0",
         f"scoreboard players set #pause {V} 60",
         *[f"execute store result score #fside{k} {V} run random value 0..1" for k in FORKS],
@@ -350,7 +352,9 @@ def build(dp):
         f"give @s {COAL_I.give()}", "playsound minecraft:block.gravel.break master @a ~ ~ ~ 1 0.8",
         actionbar("@s", "Une pelletée de charbon. Vite, à la chaudière !", "gold")], cool=10)
     role_fn("fire", 2, [
-        f"execute unless items entity @s weapon.* coal[custom_data~{{sol:{{coal:1b}}}}] run return run " +
+        # la pelletée compte n’importe où dans l’inventaire (le « give » ne la met pas forcément en main)
+        f"execute unless items entity @s container.* coal[custom_data~{{sol:{{coal:1b}}}}] "
+        f"unless items entity @s weapon.offhand coal[custom_data~{{sol:{{coal:1b}}}}] run return run " +
         actionbar("@s", "La chaudière réclame du charbon (tender, juste derrière).", "gold"),
         f"clear @s coal[custom_data~{{sol:{{coal:1b}}}}] 1", f"scoreboard players add #press {V} 15",
         "playsound minecraft:item.firecharge.use master @a ~ ~ ~ 0.8 0.8",

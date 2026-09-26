@@ -1,0 +1,470 @@
+== 1/9 cache (Java Mojang, server.jar, Fabric, Carpet : sources officielles, hashes vérifiés)
+Java : /Users/hugo/Desktop/Solstice/cache/java/jre.bundle/Contents/Home/bin/java
+MC 1.21.1 · Fabric loader 0.19.5 · installer 1.1.2
+  test carpet           1.4.147
+  pack e4mc             6.2.1-fabric
+  pack emi              1.1.24+1.21.1+fabric
+  pack fabric-api       0.116.17+1.21.1
+  pack jade             15.10.6+fabric
+  pack lithium          mc1.21.1-0.15.4-fabric
+  pack modmenu          11.0.5
+  pack placeholder-api  2.4.2+1.21
+  pack sodium           mc1.21.1-0.8.13-fabric
+fetch OK
+== 2/9 génération datapack + resource pack
+datapack : /Users/hugo/Desktop/Solstice/build/datapack/solstice (1083 fonctions, 30 advancements, 97 tests structurels) · salles réelles : [0, 1, 2, 3, 4, 5, 6, 7]
+resource pack : /Users/hugo/Desktop/Solstice/build/resourcepack/solstice_rp
+== 3/9 lint (py_compile, JSON, références, blocs, audit sélecteurs, registre d’énigmes)
+audit sélecteurs : 1083 fonctions analysées — 547 en contexte global, 779 en contexte joueur, 29 en contexte entité ; 2345 usages de @s vérifiés, 0 @p/@r autorisé
+registre d’énigmes : 37 énigmes, 37 types distincts
+lint : 50 fichiers Python, 50 JSON, 1083 fonctions (34551 commandes), 30 advancements
+lint OK
+== 4/9 construction du monde (serveur vanilla headless)
+  serveur prêt en 38s
+  build/r0: Running function solstice:build/r0
+  build/r1: Running function solstice:build/r1
+  build/r2: Running function solstice:build/r2
+  build/r3: Running function solstice:build/r3
+  build/r4: Running function solstice:build/r4
+  build/r5: Running function solstice:build/r5
+  build/r6_s1: Running function solstice:build/r6_s1
+  build/r6_s2: Running function solstice:build/r6_s2
+  build/r6_s3: Running function solstice:build/r6_s3
+  build/r6_s4: Running function solstice:build/r6_s4
+  build/r6: Running function solstice:build/r6
+  build/r7: Running function solstice:build/r7
+  serveur arrêté
+{
+ "ok": true,
+ "spawn": [
+  0,
+  101,
+  14
+ ],
+ "tests_pass": 97,
+ "tests_total": 97,
+ "tests_expected": 97,
+ "fails": [],
+ "log_problems": [],
+ "bad_builds": {},
+ "advancements_loaded": 1429,
+ "advancements_expected": 1429,
+ "functions_expected": 1083,
+ "build_seconds": 92,
+ "datapack_list": "There are 2 data pack(s) enabled: [vanilla (built-in)], [file/solstice (world)]There are no more data packs available"
+}
+  monde finalisé : /Users/hugo/Desktop/Solstice/build/world/Solstice
+== 5/9 tests E2E, 3 joueurs factices
+  serveur prêt en 40s
+  PASS [général] test n°1
+  PASS [prologue] test n°2
+  PASS [prologue] test n°3
+  PASS [prologue] test n°4
+  PASS [prologue] test n°5
+  PASS [prologue] test n°6
+  PASS [prologue] test n°7
+  PASS [prologue] test n°8
+  PASS [prologue] test n°9
+  PASS [prologue] test n°10
+  PASS [prologue] test n°11
+  PASS [prologue] test n°12
+  PASS [prologue] test n°13
+  PASS [prologue] test n°14
+  PASS [prologue] test n°15
+  PASS [prologue] test n°16
+  PASS [prologue] test n°17
+  PASS [prologue] test n°18
+  PASS [prologue] test n°19
+  PASS [tirages au sort] test n°20
+  PASS [tirages au sort] test n°21
+  PASS [tirages au sort] test n°22
+  PASS [tirages au sort] test n°23
+  PASS [prologue] test n°24
+  PASS [prologue] test n°25
+  PASS [prologue] test n°26
+  PASS [prologue] test n°27
+  PASS [salle 1 : rôles] test n°28
+  PASS [salle 1 : rôles] test n°29
+  PASS [salle 1 : rôles] test n°30
+  PASS [salle 1 : rôles] test n°31
+  PASS [salle 1 : rôles] test n°32
+  PASS [salle 1 : rôles] test n°33
+  PASS [salle 1 : rôles] test n°34
+  PASS [salle 1 : rôles] test n°35
+  PASS [salle 1 : rôles] test n°36
+  PASS [salle 1 : postes] test n°37
+  PASS [salle 1 : postes] test n°38
+  PASS [salle 1 : postes] test n°39
+  PASS [salle 1 : postes] test n°40
+  PASS [salle 1 : postes] test n°41
+  PASS [salle 1 : postes] test n°42
+  PASS [salle 1 : postes] test n°43
+  PASS [salle 1 : postes] test n°44
+  PASS [salle 1 : postes] test n°45
+  PASS [salle 1 : départ naturel] test n°46
+  PASS [salle 1 : départ naturel] test n°47
+  PASS [salle 1 : départ naturel] test n°48
+  PASS [salle 1 : départ naturel] test n°49
+  PASS [salle 1 : départ naturel] test n°50
+  PASS [salle 1 : évènements] test n°51
+  PASS [salle 1 : évènements] test n°52
+  PASS [salle 1 : évènements] test n°53
+  PASS [salle 1 : évènements] test n°54
+  PASS [salle 1 : évènements] test n°55
+  PASS [salle 1 : évènements] test n°56
+  PASS [salle 1 : évènements] test n°57
+  PASS [salle 1 : évènements] test n°58
+  PASS [salle 1 : évènements] test n°59
+  PASS [salle 1 : évènements] test n°60
+  PASS [salle 1 : évènements] test n°61
+  PASS [salle 1 : évènements] test n°62
+  PASS [salle 1 : évènements] test n°63
+  PASS [salle 1 : évènements] test n°64
+  PASS [salle 1 : évènements] test n°65
+  PASS [salle 1 : évènements] test n°66
+  PASS [salle 1 : morts et reconnexion] test n°67
+  PASS [salle 1 : morts et reconnexion] test n°68
+  PASS [salle 1 : morts et reconnexion] test n°69
+  PASS [salle 1 : morts et reconnexion] test n°70
+  PASS [salle 1 : morts et reconnexion] test n°71
+  PASS [salle 1 : morts et reconnexion] test n°72
+  PASS [salle 1 : morts et reconnexion] test n°73
+  PASS [salle 1 : parcours complet] test n°74
+  PASS [salle 1 : parcours complet] test n°75
+  PASS [salle 1 : parcours complet] test n°76
+  PASS [salle 1 : parcours complet] test n°77
+  PASS [salle 1 : parcours complet] test n°78
+  PASS [salle 1 : parcours complet] test n°79
+  PASS [salle 1 : parcours complet] test n°80
+  PASS [salle 1 : parcours complet] test n°81
+  PASS [salle 1 : parcours complet] test n°82
+  PASS [salle 1 : parcours complet] test n°83
+  PASS [salle 1 : parcours complet] test n°84
+  PASS [salle 1 : parcours complet] test n°85
+  PASS [salle 1 : parcours complet] test n°86
+  PASS [salle 1 : parcours complet] test n°87
+  PASS [salle 1 : parcours complet] test n°88
+  PASS [salle 1 : parcours complet] test n°89
+  PASS [salle 1 : parcours complet] test n°90
+  PASS [salle 1 : parcours complet] test n°91
+  PASS [salle 1 : parcours complet] test n°92
+  PASS [salle 1 : parcours complet] test n°93
+  PASS [salle 1 : parcours complet] test n°94
+  PASS [salle 1 : parcours complet] test n°95
+  PASS [salle 1 : parcours complet] test n°96
+  PASS [salle 1 : parcours complet] test n°97
+  PASS [salle 2 : niveau 1] test n°98
+  PASS [salle 2 : niveau 1] test n°99
+  PASS [salle 2 : niveau 1] test n°100
+  PASS [salle 2 : niveau 1] test n°101
+  PASS [salle 2 : niveau 1] test n°102
+  PASS [salle 2 : niveau 1] test n°103
+  PASS [salle 2 : niveau 1] test n°104
+  PASS [salle 2 : niveau 1] test n°105
+  PASS [salle 2 : niveau 1] test n°106
+  PASS [salle 2 : niveau 1] test n°107
+  PASS [salle 2 : niveau 1] test n°108
+  PASS [salle 2 : niveau 1] test n°109
+  PASS [salle 2 : niveau 1] test n°110
+  PASS [salle 2 : niveau 1] test n°111
+  PASS [salle 2 : niveau 2] test n°112
+  PASS [salle 2 : niveau 2] test n°113
+  PASS [salle 2 : niveau 2] test n°114
+  PASS [salle 2 : niveau 2] test n°115
+  PASS [salle 2 : niveau 2] test n°116
+  PASS [salle 2 : niveau 2] test n°117
+  PASS [salle 2 : niveau 2] test n°118
+  PASS [salle 2 : morts et reconnexion] test n°119
+  PASS [salle 2 : morts et reconnexion] test n°120
+  PASS [salle 2 : morts et reconnexion] test n°121
+  PASS [salle 2 : morts et reconnexion] test n°122
+  PASS [salle 2 : niveau 3 et sommet] test n°123
+  PASS [salle 2 : niveau 3 et sommet] test n°124
+  PASS [salle 2 : niveau 3 et sommet] test n°125
+  PASS [salle 2 : niveau 3 et sommet] test n°126
+  PASS [salle 2 : niveau 3 et sommet] test n°127
+  PASS [salle 2 : niveau 3 et sommet] test n°128
+  PASS [salle 2 : niveau 3 et sommet] test n°129
+  PASS [salle 2 : niveau 3 et sommet] test n°130
+  PASS [salle 2 : niveau 3 et sommet] test n°131
+  PASS [salle 2 : niveau 3 et sommet] test n°132
+  PASS [salle 3 : missions] test n°133
+  PASS [salle 3 : missions] test n°134
+  PASS [salle 3 : missions] test n°135
+  PASS [salle 3 : missions] test n°136
+  PASS [salle 3 : missions] test n°137
+  PASS [salle 3 : missions] test n°138
+  PASS [salle 3 : missions] test n°139
+  PASS [salle 3 : missions] test n°140
+  PASS [salle 3 : missions] test n°141
+  PASS [salle 3 : missions] test n°142
+  PASS [salle 3 : missions] test n°143
+  PASS [salle 3 : missions] test n°144
+  PASS [salle 3 : missions] test n°145
+  PASS [salle 3 : missions] test n°146
+  PASS [salle 3 : missions] test n°147
+  PASS [salle 3 : missions] test n°148
+  PASS [salle 3 : morts et reconnexion] test n°149
+  PASS [salle 3 : morts et reconnexion] test n°150
+  PASS [salle 3 : morts et reconnexion] test n°151
+  PASS [salle 3 : morts et reconnexion] test n°152
+  PASS [salle 3 : assemblage et Lanterne] test n°153
+  PASS [salle 3 : assemblage et Lanterne] test n°154
+  PASS [salle 3 : assemblage et Lanterne] test n°155
+  PASS [salle 3 : assemblage et Lanterne] test n°156
+  PASS [salle 3 : assemblage et Lanterne] test n°157
+  PASS [salle 3 : assemblage et Lanterne] test n°158
+  PASS [salle 3 : assemblage et Lanterne] test n°159
+  PASS [salle 3 : encre invisible] test n°160
+  PASS [salle 3 : encre invisible] test n°161
+  PASS [salle 3 : encre invisible] test n°162
+  PASS [salle 3 : encre invisible] test n°163
+  PASS [salle 3 : encre invisible] test n°164
+  PASS [salle 3 : encre invisible] test n°165
+  PASS [salle 3 : encre invisible] test n°166
+  PASS [salle 3 : encre invisible] test n°167
+  PASS [salle 3 : encre invisible] test n°168
+  PASS [salle 3 : encre invisible] test n°169
+  PASS [salle 4 : rôles et équipement] test n°170
+  PASS [salle 4 : rôles et équipement] test n°171
+  PASS [salle 4 : rôles et équipement] test n°172
+  PASS [salle 4 : rôles et équipement] test n°173
+  PASS [salle 4 : rôles et équipement] test n°174
+  PASS [salle 4 : rôles et équipement] test n°175
+  PASS [salle 4 : rôles et équipement] test n°176
+  PASS [salle 4 : rôles et équipement] test n°177
+  PASS [salle 4 : rôles et équipement] test n°178
+  PASS [salle 4 : rôles et équipement] test n°179
+  PASS [salle 4 : rôles et équipement] test n°180
+  PASS [salle 4 : rôles et équipement] test n°181
+  PASS [salle 4 : sceaux I à III] test n°182
+  PASS [salle 4 : sceaux I à III] test n°183
+  PASS [salle 4 : sceaux I à III] test n°184
+  PASS [salle 4 : sceaux I à III] test n°185
+  PASS [salle 4 : sceaux I à III] test n°186
+  PASS [salle 4 : sceaux I à III] test n°187
+  PASS [salle 4 : sceaux I à III] test n°188
+  PASS [salle 4 : sceaux I à III] test n°189
+  PASS [salle 4 : sceaux I à III] test n°190
+  PASS [salle 4 : sceaux I à III] test n°191
+  PASS [salle 4 : sceaux I à III] test n°192
+  PASS [salle 4 : sceaux I à III] test n°193
+  PASS [salle 4 : sceaux I à III] test n°194
+  PASS [salle 4 : morts, anéantissement, reconnexion] test n°195
+  PASS [salle 4 : morts, anéantissement, reconnexion] test n°196
+  PASS [salle 4 : morts, anéantissement, reconnexion] test n°197
+  PASS [salle 4 : morts, anéantissement, reconnexion] test n°198
+  PASS [salle 4 : morts, anéantissement, reconnexion] test n°199
+  PASS [salle 4 : morts, anéantissement, reconnexion] test n°200
+  PASS [salle 4 : morts, anéantissement, reconnexion] test n°201
+  PASS [salle 4 : sceaux IV à VI] test n°202
+  PASS [salle 4 : sceaux IV à VI] test n°203
+  PASS [salle 4 : sceaux IV à VI] test n°204
+  PASS [salle 4 : sceaux IV à VI] test n°205
+  PASS [salle 4 : sceaux IV à VI] test n°206
+  PASS [salle 4 : sceaux IV à VI] test n°207
+  PASS [salle 4 : sceaux IV à VI] test n°208
+  PASS [salle 4 : sceaux IV à VI] test n°209
+  PASS [salle 4 : sceaux IV à VI] test n°210
+  PASS [salle 4 : sceaux IV à VI] test n°211
+  PASS [salle 4 : sceaux IV à VI] test n°212
+  PASS [salle 4 : sceaux IV à VI] test n°213
+  PASS [salle 4 : sceaux IV à VI] test n°214
+  PASS [salle 4 : sceaux IV à VI] test n°215
+  PASS [salle 4 : sceaux IV à VI] test n°216
+  PASS [salle 5] test n°1
+  PASS [salle 5] test n°2
+  PASS [salle 5] test n°3
+  PASS [salle 5] test n°4
+  PASS [salle 5] test n°5
+  PASS [salle 5] test n°6
+  PASS [salle 5] test n°7
+  PASS [salle 5] test n°8
+  PASS [salle 5] test n°9
+  PASS [salle 5] test n°10
+  PASS [salle 5] test n°11
+  PASS [salle 5] test n°12
+  PASS [salle 5] test n°13
+  PASS [salle 5] test n°14
+  PASS [salle 5] test n°15
+  PASS [salle 5] test n°16
+  PASS [salle 5] test n°17
+  PASS [salle 5] test n°18
+  PASS [salle 5] test n°19
+  PASS [salle 5] test n°20
+  PASS [salle 5] test n°21
+  PASS [salle 5] test n°22
+  PASS [salle 5] test n°23
+  PASS [salle 5] test n°24
+  PASS [salle 5] test n°25
+  PASS [salle 5] test n°26
+  PASS [salle 6 : voyage] test n°243
+  PASS [salle 6 : voyage] test n°244
+  PASS [salle 6 : voyage] test n°245
+  PASS [salle 6 : voyage] test n°246
+  PASS [salle 6 : voyage] test n°247
+  PASS [salle 6 : voyage] test n°248
+  PASS [salle 6 : voyage] test n°249
+  PASS [salle 6 : voyage] test n°250
+  PASS [salle 6 : voyage] test n°251
+  PASS [salle 6 : voyage] test n°252
+  PASS [salle 6 : voyage] test n°253
+  PASS [salle 6 : voyage] test n°254
+  PASS [salle 6 : voyage] test n°255
+  PASS [salle 6 : anticipation] test n°256
+  PASS [salle 6 : anticipation] test n°257
+  PASS [salle 6 : anticipation] test n°258
+  PASS [salle 6 : anticipation] test n°259
+  PASS [salle 6 : anticipation] test n°260
+  PASS [salle 6 : anticipation] test n°261
+  PASS [salle 6 : anticipation] test n°262
+  PASS [salle 6 : anticipation] test n°263
+  PASS [salle 6 : anticipation] test n°264
+  PASS [salle 6 : anticipation] test n°265
+  PASS [salle 6 : anticipation] test n°266
+  PASS [salle 6 : anticipation] test n°267
+  PASS [salle 6 : anticipation] test n°268
+  PASS [salle 6 : anticipation] test n°269
+  PASS [salle 6 : anticipation] test n°270
+  PASS [salle 6 : propagations] test n°271
+  PASS [salle 6 : propagations] test n°272
+  PASS [salle 6 : propagations] test n°273
+  PASS [salle 6 : propagations] test n°274
+  PASS [salle 6 : propagations] test n°275
+  PASS [salle 6 : propagations] test n°276
+  PASS [salle 6 : propagations] test n°277
+  PASS [salle 6 : propagations] test n°278
+  PASS [salle 6 : propagations] test n°279
+  PASS [salle 6 : propagations] test n°280
+  PASS [salle 6 : propagations] test n°281
+  PASS [salle 6 : propagations] test n°282
+  PASS [salle 6 : propagations] test n°283
+  PASS [salle 6 : propagations] test n°284
+  PASS [salle 6 : propagations] test n°285
+  PASS [salle 6 : propagations] test n°286
+  PASS [salle 6 : propagations] test n°287
+  PASS [salle 6 : propagations] test n°288
+  PASS [salle 6 : propagations] test n°289
+  PASS [salle 6 : propagations] test n°290
+  PASS [salle 6 : propagations] test n°291
+  PASS [salle 6 : propagations] test n°292
+  PASS [salle 6 : propagations] test n°293
+  PASS [salle 6 : propagations] test n°294
+  PASS [salle 6 : propagations] test n°295
+  PASS [salle 6 : propagations] test n°296
+  PASS [salle 6 : propagations] test n°297
+  PASS [salle 6 : propagations] test n°298
+  PASS [salle 6 : propagations] test n°299
+  PASS [salle 6 : propagations] test n°300
+  PASS [salle 6 : propagations] test n°301
+  PASS [salle 6 : propagations] test n°302
+  PASS [salle 6 : propagations] test n°303
+  PASS [salle 6 : propagations] test n°304
+  PASS [salle 6 : propagations] test n°305
+  PASS [salle 6 : propagations] test n°306
+  PASS [salle 6 : propagations] test n°307
+  PASS [salle 6 : propagations] test n°308
+  PASS [salle 6 : morts et reconnexion] test n°309
+  PASS [salle 6 : morts et reconnexion] test n°310
+  PASS [salle 6 : morts et reconnexion] test n°311
+  PASS [salle 6 : morts et reconnexion] test n°312
+  PASS [salle 6 : morts et reconnexion] test n°313
+  PASS [salle 6 : morts et reconnexion] test n°314
+  PASS [salle 6 : morts et reconnexion] test n°315
+  PASS [salle 6 : morts et reconnexion] test n°316
+  PASS [salle 6 : cloches] test n°317
+  PASS [salle 6 : cloches] test n°318
+  PASS [salle 6 : cloches] test n°319
+  PASS [salle 6 : cloches] test n°320
+  PASS [salle 6 : cloches] test n°321
+  PASS [salle 6 : cloches] test n°322
+  PASS [salle 6 : cloches] test n°323
+  PASS [salle 6 : cloches] test n°324
+  PASS [salle 6 : cloches] test n°325
+  PASS [salle 7 : accusation] test n°326
+  PASS [salle 7 : accusation] test n°327
+  PASS [salle 7 : accusation] test n°328
+  PASS [salle 7 : accusation] test n°329
+  PASS [salle 7 : accusation] test n°330
+  PASS [salle 7 : accusation] test n°331
+  PASS [salle 7 : accusation] test n°332
+  PASS [salle 7 : accusation] test n°333
+  PASS [salle 7 : accusation] test n°334
+  PASS [salle 7 : accusation] test n°335
+  PASS [salle 7 : accusation] test n°336
+  PASS [salle 7 : machine-boss] test n°337
+  PASS [salle 7 : machine-boss] test n°338
+  PASS [salle 7 : machine-boss] test n°339
+  PASS [salle 7 : machine-boss] test n°340
+  PASS [salle 7 : machine-boss] test n°341
+  PASS [salle 7 : machine-boss] test n°342
+  PASS [salle 7 : machine-boss] test n°343
+  PASS [salle 7 : machine-boss] test n°344
+  PASS [salle 7 : machine-boss] test n°345
+  PASS [salle 7 : machine-boss] test n°346
+  PASS [salle 7 : machine-boss] test n°347
+  PASS [salle 7 : machine-boss] test n°348
+  PASS [salle 7 : machine-boss] test n°349
+  PASS [salle 7 : machine-boss] test n°350
+  PASS [salle 7 : machine-boss] test n°351
+  PASS [salle 7 : machine-boss] test n°352
+  PASS [salle 7 : machine-boss] test n°353
+  PASS [fin de partie] test n°354
+  PASS [fin de partie] test n°355
+  PASS [fin de partie] test n°356
+  PASS [fin de partie] test n°357
+  PASS [fin de partie] test n°358
+  serveur arrêté
+
+RÉSULTAT server-test : 359/359 PASS (603 s)
+== 6/9 parcours complet, indices, mode 1 joueur
+  serveur prêt en 51s
+  PASS [général] test n°1
+  PASS [parcours complet] test n°2
+  PASS [parcours complet] test n°3
+  PASS [parcours complet] test n°4
+  PASS [parcours complet] test n°5
+  PASS [parcours complet] test n°6
+  PASS [parcours complet] test n°7
+  PASS [parcours complet] test n°8
+  PASS [parcours complet] test n°9
+  PASS [parcours complet] test n°10
+  PASS [parcours complet] test n°11
+  PASS [parcours complet] test n°12
+  PASS [parcours complet] test n°13
+  PASS [parcours complet] test n°14
+  PASS [parcours complet] test n°15
+  PASS [parcours complet] test n°16
+  PASS [parcours complet] test n°17
+  PASS [parcours complet] test n°18
+  PASS [parcours complet] test n°19
+  PASS [parcours complet] test n°20
+  PASS [indices progressifs] test n°21
+  PASS [indices progressifs] test n°22
+  PASS [indices progressifs] test n°23
+  PASS [mode debug à 1 joueur] test n°24
+  PASS [mode debug à 1 joueur] test n°25
+  PASS [mode debug à 1 joueur] test n°26
+  PASS [mode debug à 1 joueur] test n°27
+  serveur arrêté
+
+RÉSULTAT server-journey : 28/28 PASS (156 s)
+== 7/9 estimation de durée
+  salle 0 Prologue : Brumeval            4.0 min (visé 3-5)
+  salle 1 L’Express du Solstice         10.0 min (visé 10-12)
+  salle 2 La Tour des Engrenages        14.0 min (visé 15)
+  salle 3 L’Atelier d’Orel              12.0 min (visé 12-15)
+  salle 4 Le Siège du Sanctuaire        18.5 min (visé 18-20)
+  salle 5 La Nuit la plus longue        14.5 min (visé 15)
+  salle 6 Les Quatre Saisons            29.5 min (visé 30)
+  salle 7 Le Cœur du Calendrier         12.5 min (visé 12-15)
+  transitions 1.2 min — TOTAL 116.2 min (1 h 56)
+== 8/9 packaging
+  /Users/hugo/Desktop/Solstice/dist/Solstice-world.zip (3240 Kio)
+  /Users/hugo/Desktop/Solstice/dist/Solstice-resourcepack.zip (14 Kio)
+  /Users/hugo/Desktop/Solstice/dist/Solstice-1.0.mrpack (3292 Kio)
+== 9/9 processus orphelins + rapport
+serveurs de test encore actifs : 0 · ports de test ouverts : aucun
+TEST_REPORT.md écrit
+OK — livrables dans dist/ (détail des tests : design/SPOILERS_NE_PAS_LIRE/, ne pas lire si vous jouez)
+EXIT 0

@@ -41,9 +41,9 @@
 ### salle 1 : rôles — 9/9
 
 - ✅ tirage au sort : trois rôles distincts (Aiguilleur, Chauffeur, Garde)
-- ✅ Bot1 (Chauffeur) à son poste
-- ✅ Bot2 (Aiguilleur) à son poste
-- ✅ Bot3 (Garde) à son poste
+- ✅ Bot1 (Garde) à son poste
+- ✅ Bot2 (Chauffeur) à son poste
+- ✅ Bot3 (Aiguilleur) à son poste
 - ✅ le Garde reçoit le balai et la feuille de route
 - ✅ les autres n’ont pas la feuille de route
 - ✅ 4 nouveaux tirages : toujours 3 rôles distincts, kit du Garde suivi
@@ -61,6 +61,14 @@
 - ✅ Aiguilleur : voie de gauche
 - ✅ poste réservé : le Garde ne touche pas à l’aiguillage
 - ✅ indice « marteau » trouvé dans le tender
+
+### salle 1 : départ naturel — 5/5
+
+- ✅ le train démarre de lui-même
+- ✅ départ : le panneau annonce le premier passage à niveau
+- ✅ barrière restée fermée : le train recule
+- ✅ après le recul, le panneau se réaffiche
+- ✅ chaudière : la pelletée est acceptée même hors de la main
 
 ### salle 1 : évènements — 16/16
 
@@ -122,15 +130,15 @@
 
 - ✅ tirage : chaque joueur a son puits (Cuivre, Laiton, Fer)
 - ✅ Bot1 au pied de son puits (Fer)
-- ✅ Bot2 au pied de son puits (Laiton)
-- ✅ Bot3 au pied de son puits (Cuivre)
+- ✅ Bot2 au pied de son puits (Cuivre)
+- ✅ Bot3 au pied de son puits (Laiton)
 - ✅ toutes les grilles sont fermées au départ
 - ✅ salle 2 : retour au village impossible (renvoyé dans la salle 2)
 - ✅ mécanisme réservé : un joueur d’un autre puits ne peut pas l’actionner
 - ✅ A1 (cadrans) : aiguilles réglées sur le motif affiché chez le Laiton → résolu
 - ✅ …et c’est la grille du LAITON (niveau 1) qui s’ouvre
 - ✅ B1 : mauvais nombre → rien
-- ✅ B1 (compter 4 étoiles chez le Fer) → résolu, grille du FER ouverte
+- ✅ B1 (compter 6 étoiles chez le Fer) → résolu, grille du FER ouverte
 - ✅ C1 : mauvais gabarit → blocage de 5 s
 - ✅ C1 (gabarit identique au modèle du Cuivre) → résolu, grille du CUIVRE ouverte
 - ✅ niveau 1 terminé : étape 2
@@ -141,7 +149,7 @@
 - ✅ A2 (vitrail : deux couleurs dans l’ordre) → résolu, grille du FER ouverte
 - ✅ B2 : mauvais code recraché, bon code (inscription du Fer + table du Cuivre) → résolu
 - ✅ …grille du CUIVRE (niveau 2) ouverte
-- ✅ C2 (cuves 5 L / 3 L → 4 L) → résolu, grille du LAITON ouverte
+- ✅ C2 (cuves 5 L / 3 L → 1 L) → résolu, grille du LAITON ouverte
 - ✅ indice « graines » trouvé dans le puits du Fer
 - ✅ niveau 2 terminé : étape 3
 
@@ -385,20 +393,22 @@
 - ✅ défi « Fin limier » (bon coupable du premier coup) accordé
 - ✅ branche « bon choix » : Ysolde rejoint le combat
 
-### salle 7 : machine-boss — 15/15
+### salle 7 : machine-boss — 17/17
 
 - ✅ phase 1 : un Opérateur tiré au sort
-- ✅ système « balancier » désactivé
+- ✅ la Lanterne révèle le point faible
+- ✅ mauvais engrenage → électrocution, compte remis à zéro
+- ✅ système « point faible » désactivé
 - ✅ phase 2 : un Opérateur tiré au sort
 - ✅ mort pendant le combat → spectateur 10 s
 - ✅ …puis de retour dans l’arène
 - ✅ les 3 à terre → le combat reprend du début, le verdict est conservé
 - ✅ l’Opérateur se reconnecte : il le reste
+- ✅ système « balancier » désactivé
+- ✅ phase 3 : un Opérateur tiré au sort
 - ✅ la Lanterne révèle le point faible
 - ✅ mauvais engrenage → électrocution, compte remis à zéro
-- ✅ système « fusibles » désactivé
-- ✅ phase 3 : un Opérateur tiré au sort
-- ✅ système « balancier » désactivé
+- ✅ système « point faible » désactivé
 - ✅ trois systèmes différents
 - ✅ l’Opérateur change à chaque phase
 - ✅ le Verrou est brisé → fin de partie lancée

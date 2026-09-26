@@ -169,19 +169,19 @@
  ],
  [
   "salle 1 : rôles",
-  "Bot1 (Chauffeur) à son poste",
+  "Bot1 (Garde) à son poste",
   true,
   ""
  ],
  [
   "salle 1 : rôles",
-  "Bot2 (Aiguilleur) à son poste",
+  "Bot2 (Chauffeur) à son poste",
   true,
   ""
  ],
  [
   "salle 1 : rôles",
-  "Bot3 (Garde) à son poste",
+  "Bot3 (Aiguilleur) à son poste",
   true,
   ""
  ],
@@ -266,6 +266,36 @@
  [
   "salle 1 : postes",
   "indice « marteau » trouvé dans le tender",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : départ naturel",
+  "le train démarre de lui-même",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : départ naturel",
+  "départ : le panneau annonce le premier passage à niveau",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : départ naturel",
+  "barrière restée fermée : le train recule",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : départ naturel",
+  "après le recul, le panneau se réaffiche",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : départ naturel",
+  "chaudière : la pelletée est acceptée même hors de la main",
   true,
   ""
  ],
@@ -565,13 +595,13 @@
  ],
  [
   "salle 2 : niveau 1",
-  "Bot2 au pied de son puits (Laiton)",
+  "Bot2 au pied de son puits (Cuivre)",
   true,
   ""
  ],
  [
   "salle 2 : niveau 1",
-  "Bot3 au pied de son puits (Cuivre)",
+  "Bot3 au pied de son puits (Laiton)",
   true,
   ""
  ],
@@ -613,7 +643,7 @@
  ],
  [
   "salle 2 : niveau 1",
-  "B1 (compter 4 étoiles chez le Fer) → résolu, grille du FER ouverte",
+  "B1 (compter 6 étoiles chez le Fer) → résolu, grille du FER ouverte",
   true,
   ""
  ],
@@ -661,7 +691,7 @@
  ],
  [
   "salle 2 : niveau 2",
-  "C2 (cuves 5 L / 3 L → 4 L) → résolu, grille du LAITON ouverte",
+  "C2 (cuves 5 L / 3 L → 1 L) → résolu, grille du LAITON ouverte",
   true,
   ""
  ],
@@ -1837,7 +1867,19 @@
  ],
  [
   "salle 7 : machine-boss",
-  "système « balancier » désactivé",
+  "la Lanterne révèle le point faible",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "mauvais engrenage → électrocution, compte remis à zéro",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "système « point faible » désactivé",
   true,
   ""
  ],
@@ -1873,6 +1915,18 @@
  ],
  [
   "salle 7 : machine-boss",
+  "système « balancier » désactivé",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "phase 3 : un Opérateur tiré au sort",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
   "la Lanterne révèle le point faible",
   true,
   ""
@@ -1885,19 +1939,7 @@
  ],
  [
   "salle 7 : machine-boss",
-  "système « fusibles » désactivé",
-  true,
-  ""
- ],
- [
-  "salle 7 : machine-boss",
-  "phase 3 : un Opérateur tiré au sort",
-  true,
-  ""
- ],
- [
-  "salle 7 : machine-boss",
-  "système « balancier » désactivé",
+  "système « point faible » désactivé",
   true,
   ""
  ],
