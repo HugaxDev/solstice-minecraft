@@ -1,0 +1,170 @@
+[
+ [
+  "général",
+  "serveur : toutes les zones de jeu chargées",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "3 joueurs au prologue, la cinématique démarre",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "salle 0 → salle 1 : téléportation automatique des 3",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "salle 1 : impossible de revenir dans les 1 salle(s) précédente(s)",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "salle 1 → salle 2 : téléportation automatique des 3",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "salle 2 : impossible de revenir dans les 2 salle(s) précédente(s)",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "salle 2 → salle 3 : téléportation automatique des 3",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "salle 3 : impossible de revenir dans les 3 salle(s) précédente(s)",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "salle 3 → salle 4 : téléportation automatique des 3",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "salle 4 : impossible de revenir dans les 4 salle(s) précédente(s)",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "salle 4 → salle 5 : téléportation automatique des 3",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "salle 5 : impossible de revenir dans les 5 salle(s) précédente(s)",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "salle 5 → salle 6 : téléportation automatique des 3",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "salle 6 : impossible de revenir dans les 6 salle(s) précédente(s)",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "salle 6 → salle 7 : téléportation automatique des 3",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "salle 7 : impossible de revenir dans les 7 salle(s) précédente(s)",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "ordre des salles strictement croissant 0 → 7",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "crédits : advancement final pour les 3",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "épilogue : retour au village (#room = 8)",
+  true,
+  ""
+ ],
+ [
+  "parcours complet",
+  "journal : les 8 salles sont validées",
+  true,
+  ""
+ ],
+ [
+  "indices progressifs",
+  "5 minutes bloqués sur une étape → premier indice",
+  true,
+  ""
+ ],
+ [
+  "indices progressifs",
+  "8 minutes → second indice",
+  true,
+  ""
+ ],
+ [
+  "indices progressifs",
+  "changement d’étape → compteur d’indices remis à zéro",
+  true,
+  ""
+ ],
+ [
+  "mode debug à 1 joueur",
+  "à 1 joueur (debug), le prologue démarre seul",
+  true,
+  ""
+ ],
+ [
+  "mode debug à 1 joueur",
+  "salle 1 : le joueur seul cumule les trois rôles vacants",
+  true,
+  ""
+ ],
+ [
+  "mode debug à 1 joueur",
+  "salle 2 : l’automate d’Orel résout les puits vacants",
+  true,
+  ""
+ ],
+ [
+  "mode debug à 1 joueur",
+  "retour au réglage à 3 joueurs",
+  true,
+  ""
+ ],
+ [
+  "serveur",
+  "aucune erreur/avertissement lié au datapack dans les logs",
+  true,
+  ""
+ ]
+]

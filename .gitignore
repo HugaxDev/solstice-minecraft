@@ -1,0 +1,7 @@
+# fichiers Mojang / Fabric téléchargés (non redistribuables, régénérés par tools/fetch.py)
+cache/
+# sorties de build (régénérées par ./build.sh)
+build/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,1958 @@
+[
+ [
+  "général",
+  "serveur : toutes les zones de jeu chargées",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "Bot1 arrive : dans le prologue (sol.room = 0)",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "Bot1 au point d’apparition",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "mode aventure",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "Carnet d’enquête reçu",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "advancement racine accordé",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "2 joueurs : le jeu attend toujours (#step = 0)",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "bossbar : compteur de voyageurs",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "3 joueurs présents : la cinématique d’Orel démarre",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "fin de la cinématique : exploration libre (#step = 2)",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "clic réel sur Maître Orel → réplique",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "Maître Orel : PNJ à skin présent (un seul noyé)",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "Maître Orel en plein jour : ne brûle pas (auvent)",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "mode Paisible : repassé en Normal, Maître Orel toujours là",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "clic réel sur Lise → réplique",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "horloge figée cliquée → indice « minuit »",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "indice « minuit » : journal accordé aux 3",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "indice « minuit » inscrit dans le Carnet de chacun",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "flaque d’encre repérée → indice « encre »",
+  true,
+  ""
+ ],
+ [
+  "tirages au sort",
+  "30 tirages : chaque joueur a toujours un rôle unique (1, 2, 3)",
+  true,
+  ""
+ ],
+ [
+  "tirages au sort",
+  "30 tirages : chaque joueur obtient le rôle 1 au moins une fois (hasard réel)",
+  true,
+  ""
+ ],
+ [
+  "tirages au sort",
+  "aucun rôle vacant à 3 joueurs",
+  true,
+  ""
+ ],
+ [
+  "tirages au sort",
+  "20 tirages avec exclusion : le rôle 1 change toujours de joueur",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "2 joueurs sur le quai : le train attend",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "le 3e monte : départ (transition)",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "prologue → salle 1 : téléportation automatique des 3",
+  true,
+  ""
+ ],
+ [
+  "prologue",
+  "advancement « Brumeval » accordé aux 3",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : rôles",
+  "tirage au sort : trois rôles distincts (Aiguilleur, Chauffeur, Garde)",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : rôles",
+  "Bot1 (Chauffeur) à son poste",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : rôles",
+  "Bot2 (Aiguilleur) à son poste",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : rôles",
+  "Bot3 (Garde) à son poste",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : rôles",
+  "le Garde reçoit le balai et la feuille de route",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : rôles",
+  "les autres n’ont pas la feuille de route",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : rôles",
+  "4 nouveaux tirages : toujours 3 rôles distincts, kit du Garde suivi",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : rôles",
+  "les rôles changent vraiment d’un tirage à l’autre",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : rôles",
+  "salle 1 : retour au village impossible (renvoyé dans la salle 1)",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : postes",
+  "fin de l’introduction : le train roule (tronçon 1)",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : postes",
+  "poste réservé : l’Aiguilleur ne peut pas charger la chaudière",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : postes",
+  "Chauffeur : une pelletée prise au tender",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : postes",
+  "Chauffeur : charbon dans la chaudière → pression +15",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : postes",
+  "Chauffeur : soupape → pression −20",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : postes",
+  "Aiguilleur : voie de droite",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : postes",
+  "Aiguilleur : voie de gauche",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : postes",
+  "poste réservé : le Garde ne touche pas à l’aiguillage",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : postes",
+  "indice « marteau » trouvé dans le tender",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "passage à niveau sans barrière ouverte → erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "…le train recule au début du tronçon",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "le panneau annonce le passage à niveau (manivelle active)",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "Garde : 3 tours de manivelle → barrière ouverte",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "passage à niveau franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "bifurcation : mauvaise voie → erreur et recul",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "bifurcation : l’Aiguilleur règle la bonne voie → passage",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "zone lente franchie trop vite → déraillement (erreur)",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "zone lente à pression basse → pas d’erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "tunnel en montée sans pression → erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "tunnel à pleine pression → passage",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "3 Brumeux montent à bord",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "les Brumeux ne blessent pas (dégâts 0)",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "Brumeux jetés par-dessus bord → disparus",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "surpression (> 100) → erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : évènements",
+  "chaudière éteinte 6 s → erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : morts et reconnexion",
+  "le Chauffeur meurt → revient à son poste, avec son rôle",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : morts et reconnexion",
+  "…dans la cabine",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : morts et reconnexion",
+  "le Garde se reconnecte → rôle conservé",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : morts et reconnexion",
+  "…remis à l’arrière du train",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : morts et reconnexion",
+  "…avec son balai et sa feuille de route",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : morts et reconnexion",
+  "les 3 à terre → groupe relevé, train ramené au début du tronçon",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : morts et reconnexion",
+  "rôles conservés après l’anéantissement",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 0 (cross) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 1 (board) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 2 (fork) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 3 (lim_on) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 4 (lim_off) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 5 (cross) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 6 (board) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 7 (fork) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 8 (board) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 9 (tunnel) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 10 (fork) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 11 (cross) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 12 (lim_on) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 13 (lim_off) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 14 (board) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 15 (fork) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 16 (cross) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 17 (fork) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "évènement 18 (arrive) franchi sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "parcours complet sans erreur",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "terminus : transition vers la Tour",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "défi « Voie royale » (aucune erreur) accordé",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "salle 1 → 2 : téléportation automatique",
+  true,
+  ""
+ ],
+ [
+  "salle 1 : parcours complet",
+  "les objets du train ne suivent pas",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 1",
+  "tirage : chaque joueur a son puits (Cuivre, Laiton, Fer)",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 1",
+  "Bot1 au pied de son puits (Fer)",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 1",
+  "Bot2 au pied de son puits (Laiton)",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 1",
+  "Bot3 au pied de son puits (Cuivre)",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 1",
+  "toutes les grilles sont fermées au départ",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 1",
+  "salle 2 : retour au village impossible (renvoyé dans la salle 2)",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 1",
+  "mécanisme réservé : un joueur d’un autre puits ne peut pas l’actionner",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 1",
+  "A1 (cadrans) : aiguilles réglées sur le motif affiché chez le Laiton → résolu",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 1",
+  "…et c’est la grille du LAITON (niveau 1) qui s’ouvre",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 1",
+  "B1 : mauvais nombre → rien",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 1",
+  "B1 (compter 4 étoiles chez le Fer) → résolu, grille du FER ouverte",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 1",
+  "C1 : mauvais gabarit → blocage de 5 s",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 1",
+  "C1 (gabarit identique au modèle du Cuivre) → résolu, grille du CUIVRE ouverte",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 1",
+  "niveau 1 terminé : étape 2",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 2",
+  "montée : checkpoint individuel au niveau 2",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 2",
+  "A2 (vitrail : deux couleurs dans l’ordre) → résolu, grille du FER ouverte",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 2",
+  "B2 : mauvais code recraché, bon code (inscription du Fer + table du Cuivre) → résolu",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 2",
+  "…grille du CUIVRE (niveau 2) ouverte",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 2",
+  "C2 (cuves 5 L / 3 L → 4 L) → résolu, grille du LAITON ouverte",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 2",
+  "indice « graines » trouvé dans le puits du Fer",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 2",
+  "niveau 2 terminé : étape 3",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : morts et reconnexion",
+  "mort : le Laiton réapparaît à SON niveau (2), dans son puits",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : morts et reconnexion",
+  "reconnexion : le Fer garde son puits",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : morts et reconnexion",
+  "…et revient à son niveau (2)",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : morts et reconnexion",
+  "les 3 à terre : groupe relevé, énigmes résolues conservées",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 3 et sommet",
+  "A3 : mauvaise combinaison → court-circuit, blocage",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 3 et sommet",
+  "A3 (leviers selon le schéma du Laiton) → résolu, grille du LAITON ouverte",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 3 et sommet",
+  "B3 : foncer dans un mur → retour au départ",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 3 et sommet",
+  "B3 (guidé par la fresque du Fer) → palet sur l’émeraude, grille du FER ouverte",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 3 et sommet",
+  "C3 (toutes les lampes rallumées) → résolu, grille du CUIVRE ouverte",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 3 et sommet",
+  "tous les mécanismes résolus : direction le sommet",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 3 et sommet",
+  "2 joueurs sur 3 au sommet : on attend le troisième",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 3 et sommet",
+  "les 3 réunis au sommet → salle terminée",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 3 et sommet",
+  "défi « Horlogerie fine » (< 12 min) accordé",
+  true,
+  ""
+ ],
+ [
+  "salle 2 : niveau 3 et sommet",
+  "salle 2 → 3 : téléportation automatique",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "tirage : une mission différente par joueur",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "salle 3 : retour au village impossible (renvoyé dans la salle 3)",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "porte réservée : un autre joueur ne peut pas entrer dans le Grenier",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "le joueur du Grenier y est téléporté",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "le joueur de la Cave y est téléporté",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "le joueur du Cabinet y est téléporté",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "Grenier : 8 poussées réelles, chaque caisse avance dans la direction du regard",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "Grenier : les deux caisses sur les dalles d’or → vitrine ouverte",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "Grenier : pièce « Cage de laiton » récupérée",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "Cave : la boîte à musique joue la mélodie",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "Cave : fausse note → on recommence la manche",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "Cave : trois mélodies rejouées → vitrine ouverte",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "Cave : pièce « Mèche éternelle » récupérée",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "Cabinet : miroirs orientés → la lumière atteint la cible",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "Cabinet : pièce « Verre de lune » récupérée",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : missions",
+  "trois pièces rapportées : étape « assemblage »",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : morts et reconnexion",
+  "mort : retour à l’atelier, la pièce est conservée",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : morts et reconnexion",
+  "reconnexion : mission et pièce conservées",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : morts et reconnexion",
+  "…remis dans l’atelier",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : morts et reconnexion",
+  "les 3 à terre : relevés, les pièces restent en poche",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : assemblage et Lanterne",
+  "pose d’une pièce sur l’établi (elle quitte l’inventaire)",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : assemblage et Lanterne",
+  "deux pièces seulement : elles retombent, rendues à leurs porteurs",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : assemblage et Lanterne",
+  "pas de Lanterne sans les trois",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : assemblage et Lanterne",
+  "les trois pièces posées ensemble → Lanterne des Saisons assemblée",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : assemblage et Lanterne",
+  "une seule Lanterne pour le groupe",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : assemblage et Lanterne",
+  "porteur déconnecté : la Lanterne passe à un coéquipier",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : assemblage et Lanterne",
+  "porteur revenu : toujours une seule Lanterne",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : encre invisible",
+  "Lanterne en main : l’encre invisible apparaît près du porteur",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : encre invisible",
+  "…et disparaît quand la Lanterne s’éloigne",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : encre invisible",
+  "sous l’établi, à la Lanterne : indice « mot »",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : encre invisible",
+  "passage secret révélé derrière les étagères",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : encre invisible",
+  "dans l’alcôve, à la Lanterne : indice « plan »",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : encre invisible",
+  "mauvaise lettre : le plancher grince, on recommence",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : encre invisible",
+  "lettres TEMP : le mot se forme",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : encre invisible",
+  "mot TEMPS épelé → la grande horloge s’ouvre, salle terminée",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : encre invisible",
+  "salle 3 → 4 : téléportation automatique",
+  true,
+  ""
+ ],
+ [
+  "salle 3 : encre invisible",
+  "la Lanterne suit le groupe (objet permanent)",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : rôles et équipement",
+  "salle 4 : retour au village impossible (renvoyé dans la salle 4)",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : rôles et équipement",
+  "sceau I après l’introduction",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : rôles et équipement",
+  "tirage : Guérisseur, Chevalier, Tank distincts",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : rôles et équipement",
+  "Guérisseur : bâton de soin",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : rôles et équipement",
+  "Chevalier : épée",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : rôles et équipement",
+  "Tank : cor de provocation et bouclier",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : rôles et équipement",
+  "Tank : 30 points de vie",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : rôles et équipement",
+  "vagues : des gardiens attaquent",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : rôles et équipement",
+  "régénération naturelle coupée (le soin compte)",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : rôles et équipement",
+  "Guérisseur : le bâton soigne les alliés proches",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : rôles et équipement",
+  "…puis se recharge (10 s)",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : rôles et équipement",
+  "Tank : le cor le rend lumineux (provocation)",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux I à III",
+  "mécanisme réservé : le Chevalier ne peut pas toucher les piliers",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux I à III",
+  "sceau I : mauvais pilier → l’ordre repart de zéro",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux I à III",
+  "sceau I : trois glyphes dans l’ordre lu par le Guérisseur → brisé",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux I à III",
+  "les gardiens reculent (arène vidée)",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux I à III",
+  "sceau II commence",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux I à III",
+  "nouveau tirage : le Guérisseur a changé de joueur",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux I à III",
+  "sceau II : le Chevalier seul sur sa dalle ne suffit pas",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux I à III",
+  "sceau II : Chevalier et Tank sur les dalles annoncées 3 s → brisé",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux I à III",
+  "sceau III commence",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux I à III",
+  "le Guérisseur change encore",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux I à III",
+  "sceau III : mauvaise statue → des gardiens surgissent",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux I à III",
+  "le Gardien des Jardins lâche un gant → indice « gant »",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux I à III",
+  "sceau III : la bonne statue → brisé",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : morts, anéantissement, reconnexion",
+  "sceau IV commence",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : morts, anéantissement, reconnexion",
+  "le Chevalier tombe → spectateur d’un coéquipier",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : morts, anéantissement, reconnexion",
+  "10 s plus tard : de retour, avec son épée",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : morts, anéantissement, reconnexion",
+  "le Tank se reconnecte : rôle, cor et 30 PV restaurés",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : morts, anéantissement, reconnexion",
+  "les 3 à terre → arène vidée, groupe relevé",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : morts, anéantissement, reconnexion",
+  "le sceau en cours recommence (les sceaux brisés le restent)",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : morts, anéantissement, reconnexion",
+  "…avec un nouveau tirage des rôles",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux IV à VI",
+  "sceau IV : le Guérisseur lit le Registre → indice « registre »",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux IV à VI",
+  "sceau IV : un brasero décrit s’allume",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux IV à VI",
+  "sceau IV : mauvais brasero → tous s’éteignent",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux IV à VI",
+  "sceau IV : les deux braseros décrits → brisé",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux IV à VI",
+  "sceau V commence",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux IV à VI",
+  "sceau V : dalle piégée → renvoyé à l’entrée de l’annexe",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux IV à VI",
+  "sceau V : le chemin sûr (vu du seul Guérisseur) se traverse sans piège",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux IV à VI",
+  "sceau V : levier atteint → brisé",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux IV à VI",
+  "sceau VI commence",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux IV à VI",
+  "sceau VI : les gardiens abattus lâchent os, fils et cendres",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux IV à VI",
+  "sceau VI : offrande incomplète → refus",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux IV à VI",
+  "sceau VI : offrande complète → les six sceaux sont brisés",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux IV à VI",
+  "défi « Rempart » refusé (il y a eu des morts)",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux IV à VI",
+  "salle 4 → 5 : téléportation automatique",
+  true,
+  ""
+ ],
+ [
+  "salle 4 : sceaux IV à VI",
+  "équipement de rôle retiré en quittant le Sanctuaire",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : voyage",
+  "les 3 joueurs sont dans la salle 6",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : voyage",
+  "Bot1 au point d’arrivée de la salle 6",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : voyage",
+  "Bot2 au point d’arrivée de la salle 6",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : voyage",
+  "Bot3 au point d’arrivée de la salle 6",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : voyage",
+  "chacun reçoit un Cadran des Saisons",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : voyage",
+  "vallée remise à zéro à l’entrée (aucun cristal rendu)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : voyage",
+  "Cadran + accroupi : Printemps → Été, même position (z + 200)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : voyage",
+  "saison du joueur mise à jour (Été)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : voyage",
+  "les autres joueurs restent au Printemps (groupe éclaté possible)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : voyage",
+  "Hiver → Printemps (cycle)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : voyage",
+  "sans le Cadran en main, s’accroupir ne fait rien",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : voyage",
+  "salle 6 : retour au village impossible (renvoyé dans la salle 6)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : voyage",
+  "chute dans le ravin (Automne) → retour au Cercle de l’Automne",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : anticipation",
+  "bourgeon cueilli au printemps → chacun en a une copie",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : anticipation",
+  "bourgeon déposé dans le Coffre du Temps (printemps), retiré des sacs",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : anticipation",
+  "propagation : en été, le coffre montre un bourgeon qui a grossi",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : anticipation",
+  "propagation : en automne, le bourgeon a mûri → Cristal du Printemps",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : anticipation",
+  "premier clic = avertissement, second = cristal du Printemps rendu",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : anticipation",
+  "le cristal quitte les sacs de tous",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : anticipation",
+  "gland trouvé en automne",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : anticipation",
+  "Printemps figé : impossible de planter",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : anticipation",
+  "impasse détectée et annoncée (le Sablier de Remontée est proposé)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : anticipation",
+  "Sablier de Remontée : 1er clic = confirmation demandée",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : anticipation",
+  "2e clic : toute la vallée revient au début",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : anticipation",
+  "remontée : objets de la vallée retirés des sacs",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : anticipation",
+  "remontée : coûteuse (joueurs figés)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : anticipation",
+  "remontée comptée (le défi « sans sablier » est perdu)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : anticipation",
+  "remontée : tout le monde au Cercle du Printemps",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "gland planté au printemps",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "printemps : pousse de chêne",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "propagation : en été, un chêne adulte (tronc de 7 blocs)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "propagation : en automne, un vieux chêne",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "pas encore de pont (automne)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "atterrissage sûr : on ne se retrouve jamais dans un tronc (posé au-dessus)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "hache trouvée en hiver (atelier de Lise)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "en été, le chêne est trop jeune pour être abattu",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "3 coups de hache en automne → le chêne tombe",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "propagation : pont de bois au-dessus du ravin en automne",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "propagation : le pont existe aussi en hiver (enneigé)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "…mais pas au printemps ni en été (le passé)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "la hache disparaît une fois utilisée",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "on peut reprendre le bourgeon du coffre tant qu’il n’a pas mûri",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "en été, le coffre ne rend rien (pas encore mûr)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "automne : Cristal du Printemps récupéré, pour tout le groupe",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "avant la vanne : bassin vide en hiver",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "vanne tournée 4 fois en été → ouverte",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "propagation : en été, le bassin se remplit",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "propagation : en automne, un étang",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "propagation : en hiver, un lac gelé (on marche dessus)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "le printemps n’est pas touché (le passé)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "cristal du Printemps rendu (1/4)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "la Lanterne est bien dans le groupe",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "brasero d’hiver sans braise : rien",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "Flamme éternelle (été) : la Lanterne capture une braise",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "braise portée en hiver → brasero allumé",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "sans soufflet, la glace ne fond pas",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "soufflet actionné en été PENDANT que le brasero brûle en hiver → la glace fond",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "propagation : la grotte d’hiver est ouverte",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "Cristal de l’Été récupéré dans la grotte",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "cristal de l’Été rendu (2/4) — l’Été est figé",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "Été figé : le soufflet ne fait plus rien",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "Cristal de l’Automne récupéré sur le plateau (derrière le pont)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "cristal de l’Automne rendu (3/4)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "Cristal de l’Hiver récupéré sur l’îlot (lac gelé)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "cristal de l’Hiver rendu (4/4)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : propagations",
+  "étape finale : les cloches (#step = 4)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : morts et reconnexion",
+  "mort : le joueur reste dans la salle, progression intacte",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : morts et reconnexion",
+  "mort : pas de spectateur hors combat",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : morts et reconnexion",
+  "mort : le Cadran est rendu",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : morts et reconnexion",
+  "reconnexion : remis dans la salle 6",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : morts et reconnexion",
+  "reconnexion : dans une des vallées",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : morts et reconnexion",
+  "reconnexion : Cadran rendu",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : morts et reconnexion",
+  "les 3 à terre : le groupe est relevé",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : morts et reconnexion",
+  "…sans perdre les cristaux rendus",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : cloches",
+  "3 cloches sonnées (printemps, été, automne)…",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : cloches",
+  "…mais sans l’hiver, l’accord n’est pas complet",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : cloches",
+  "après la fenêtre, les cloches se taisent (à refaire ensemble)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : cloches",
+  "Sablier du Solstice retourné en hiver (30 s)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : cloches",
+  "les 3 cloches + le sablier sonnent ensemble → salle terminée",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : cloches",
+  "défi « sans sablier » non accordé (on a remonté le temps)",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : cloches",
+  "salle 6 → 7 : téléportation automatique",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : cloches",
+  "advancement « Les Quatre Saisons » accordé",
+  true,
+  ""
+ ],
+ [
+  "salle 6 : cloches",
+  "les objets de la vallée ne suivent pas (Cadran retiré)",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : accusation",
+  "salle 7 : retour au village impossible (renvoyé dans la salle 7)",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : accusation",
+  "le tableau d’enquête affiche un panneau par indice trouvé",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : accusation",
+  "2 votes sur 3 : on attend le troisième",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : accusation",
+  "désaccord → votes remis à zéro, il faut se mettre d’accord",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : accusation",
+  "vote unanime pour Bram → verdict (mauvais choix)",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : accusation",
+  "branche « mauvais choix » : le combat commence, sans aide",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : accusation",
+  "branche « mauvais choix » : automates plus nombreux",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : accusation",
+  "salle rejouée (debug) : retour au vote",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : accusation",
+  "vote unanime pour Ysolde → bon choix",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : accusation",
+  "défi « Fin limier » (bon coupable du premier coup) accordé",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : accusation",
+  "branche « bon choix » : Ysolde rejoint le combat",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "phase 1 : un Opérateur tiré au sort",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "système « balancier » désactivé",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "phase 2 : un Opérateur tiré au sort",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "mort pendant le combat → spectateur 10 s",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "…puis de retour dans l’arène",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "les 3 à terre → le combat reprend du début, le verdict est conservé",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "l’Opérateur se reconnecte : il le reste",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "la Lanterne révèle le point faible",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "mauvais engrenage → électrocution, compte remis à zéro",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "système « fusibles » désactivé",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "phase 3 : un Opérateur tiré au sort",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "système « balancier » désactivé",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "trois systèmes différents",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "l’Opérateur change à chaque phase",
+  true,
+  ""
+ ],
+ [
+  "salle 7 : machine-boss",
+  "le Verrou est brisé → fin de partie lancée",
+  true,
+  ""
+ ],
+ [
+  "fin de partie",
+  "fin déclenchée (#ended = 1)",
+  true,
+  ""
+ ],
+ [
+  "fin de partie",
+  "crédits : advancement final accordé aux 3",
+  true,
+  ""
+ ],
+ [
+  "fin de partie",
+  "épilogue : retour à Brumeval (#room = 8)",
+  true,
+  ""
+ ],
+ [
+  "fin de partie",
+  "épilogue : les 3 joueurs au village",
+  true,
+  ""
+ ],
+ [
+  "fin de partie",
+  "temps de partie compté (#gtime > 0)",
+  true,
+  ""
+ ],
+ [
+  "serveur",
+  "aucune erreur/avertissement lié au datapack dans les logs",
+  true,
+  ""
+ ]
+]
